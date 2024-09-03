@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    margin-top: 2rem;
+}
+nav{
+    margin-top: 2rem;
+    background: #2f333a;
+    height:70px;
+}
+.section{   
+        gap: 50px;
+        a{
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #fff;
+        }
+}
+.logo{
+    width: 112px;
+}
+
+.menu{
+  
+}
+
+.menu ul li i{
+    font-size: 2rem;
+}
