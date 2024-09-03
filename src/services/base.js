@@ -5,5 +5,8 @@ export const productsApi ={
         axios.get(productsUrl)
             .then(response => console.log(response.data));
             
+    },
+    addProduct: function (param) {
+        axios.post(productsUrl, param)
     }
 }
